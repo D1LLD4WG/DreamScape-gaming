@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamScape Gaming</title>
+    <link href="bootstrap.bundle/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styleshett.css" rel="stylesheet">
+    <script src="bootstrap.bundle/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</head>
+
+     <!-- Header + Navigation -->
+<body class="body-Home">
+<header class="container-fluid event-links">
+    <nav class="navbar navbar-expand-lg navcolor">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-white" href="#"><img src="Images/360_F_1073798633_cKVK1sJAy6JgYkoYqohMQhycb2IY7P7V.jpg" alt="" width="90" height="70"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1 class="dreamscape text-white">DreamScape Gaming</h1>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item fw-bold"><a class="nav-link active text-white" href="Home.html">Home</a></li>
+                <li class="nav-item fw-bold"><a class="nav-link active text-white" href="About.html">About</a></li>
+                <li class="nav-item fw-bold"><a class="nav-link active text-white" href="Contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main intro to desciption -->
+
+<main class="container-fluid">
+<h1 class="UltimateGamers">The Ultimate Gamers</h1>
+<p class="UltimateGamersp">This is where you can find the insight of all the most competive games!</p>
+</main>
+
+<!-- Card Section -->
+ <!-- Frag Punk -->
+<h1 class="text-center text-white mt-5">Competitive Games</h1>
+<div class="card-group">
+    <div class="card container mt-5 bg-success">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPe2mDmYdMifk6fFS5Duc300sF4u9kiG9Xfg&s" alt="Fragpunk">
+            <div class="card-body">
+                <h4 class="card-title">FragPunk</h4>
+                <p class="card-text">FragPunk is a fast-paced, 5v5 hero-based first-person shooter FPS where players use characters with unique abilities Lancers and power-up cards Shard Cards to break the rules of combat and change the gameplay dynamically, making no two rounds the same. </p>
+                <a href="https://www.fragpunk.com/fab/1/?utm_source=adwords&utm_campaign=22308170630&utm_term=174661642686&utm_content=736790714318&gsc=1&utm_medium=g_5652811&gad_source=1&gclid=CjwKCAjwvr--BhB5EiwAd5YbXhUeV_rxgYlKMCN0UFbbnuVKn_OFjT5q1-Xr3KTYf-8WsVrP0A68qhoCiZMQAvD_BwE#/" class="btn btn-success">FragPunk WebSite</a>
+            </div>
+        </div>
+    </div>
+
+<!-- Apex Legends -->
+    <div class="card container mt-5 bg-danger">
+        <div class="card">
+            <img src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2024/03/Apex_legends_logo.png" alt="Apex Legends">
+            <div class="card-body">
+                <h4 class="card-title">Apex Legends</h4>
+                <p class="card-text">Apex Legends is a free-to-play, online, multiplayer, battle royale shooter game. It's similar to Fortnite, but with more realistic gameplay and geared towards an older audience. </p>
+                <a href="https://www.ea.com/games/apex-legends/apex-legends" class="btn btn-danger">Apex Legends Website</a>
+            </div>
+        </div>
+    </div>
+
+<!-- Rainbow Six Siege -->
+    <div class="card container mt-5 bg-dark mx-auto">
+        <div class="card">
+            <img src="https://clan.fastly.steamstatic.com/images//8328525/7ba2934f22d58557a00ee21675148770495bd8ef.jpg" alt="Rainbow Six Siege">
+            <div class="card-body">
+                <h4 class="card-title">Rainbow Six Siege</h4>
+                <p class="card-text">Tom Clancy's Rainbow Six Siege is a first-person shooter FPS video game that features tactical team-based combat. It's known for its realistic, close-quarters combat in destructible environments.</p>
+                <a href="https://www.ubisoft.com/en-us/game/rainbow-six/siege" class="btn btn-dark">Rainbow Six Siege Website</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sign up Form -->
+<div class="container mt-5">
+    <h2 class="text-center text-white">Sign Up Form</h2>
+
+    <!-- Email Form -->
+    <form class="border p-4 shadow-sm bg-light row">
+        <div class="col">
+            <label type="Email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="Email" placeholder="Enter Your Email">
+        </div>
+
+        <!-- Username Form -->
+         <div class="col">
+            <label type="Username" class="form-label">UserName</label>
+            <input type="Username" class="form-control" id="Username" placeholder="Enter your Username">
+         </div>
+
+        <!-- Game type -->
+         <div>
+            <label for="inputTeam">Game</label>
+            <select id="inputTeam" class="form-control">
+              <option selected>Select...</option>
+              <option>Apex Legends</option>
+              <option>Frag Punk</option>
+              <option>Rainbow Six Siege</option>
+            </select>
+          </div>
+
+         <!-- Select Team -->
+         <div>
+            <label for="inputTeam">Team</label>
+            <select id="inputTeam" class="form-control">
+              <option selected>Select...</option>
+              <option>Faze</option>
+              <option>Cloud9</option>
+              <option>Team Liqued</option>
+              <option>DreamScape</option>
+            </select>
+          </div>
+          <button class="btn btn-primary mt-3">Sign up</button>
+    </form>
+</div>
+
+<!-- table Top players -->
+ <h1 class="text-center text-white mt-5">Apex Legends</h1>
+ <h2 class="text-center text-white">Top players</h2>
+<table class="table container">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Team</th>
+        <th scope="col">Stream</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Evan Verhulst</td>
+        <td>TSM</td>
+        <td>Verhulst</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Nic Mercs</td>
+        <td>Faze</td>
+        <td>Nec Mercs</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Miron Novikov</td>
+        <td>Alliance</td>
+        <td>Effect</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h1 class="text-center text-white container">Frag Punk</h1>
+  <h2 class="text-center text-white container">Top players</h2>
+  <table class="table container">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Team</th>
+        <th scope="col">Stream</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Tyler Pharris</td>
+        <td>Faze</td>
+        <td>eBeZy</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Daunte Gray</td>
+        <td>Cloud 9</td>
+        <td>Sib</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Matthew Tinsley</td>
+        <td>Los Angles</td>
+        <td>KiSMET</td>
+      </tr>
+    </tbody>
+  </table>
+<h1 class="text-center text-white container">Rainbow Six Siege</h1>
+<h2 class="text-center text-white container">Top players</h2>
+  <table class="table container">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Team</th>
+        <th scope="col">Stream</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Jaime Ramos</td>
+        <td>faze</td>
+        <td>cyberzerar6</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Diogo Dutra Lima Britto da Silva</td>
+        <td>Ninja in Pyjamas</td>
+        <td>Fntzyzilla</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Liam Paz</td>
+        <td>SpaceStating Gaming</td>
+        <td>ashnr6s</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Picture Slide of  pro teams -->
+  <div id="carouselSlides" class="carousel slide mt-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BF976aWLFliMiOg6qJeguCf0b1S734h2Vw&s" alt="Faze Clane">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://1000logos.net/wp-content/uploads/2017/11/Cloud-9-Logo.png" alt="cloud 9">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRxAfRKmLUj9YkNN96Lv6Rev1nwX_7GgQPvkaYw26q9xUJFuR3qbYiSlUYXCVsHPTxN2k&usqp=CAU">
+    </div>
+  </div>
+
+  
+
+
+<!-- Footer -->
+<footer class="container-fluid">
+&copy;DreamScape Gaming
+<br>
+Ultimate Gamers
+</footer>
+</body>
+</html>

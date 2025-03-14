@@ -1,0 +1,47 @@
+/* This is in the Home under Main */
+body{
+    background-color: black;
+}
+nav.navcolor{
+    background-color: black;
+}
+main{
+    background-image: url(https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2021/11/green-matrix-style-numbers.png);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 2%;
+}
+h1.UltimateGamers{
+    text-align: center;
+    font-size: 120px;
+    color: white;
+}
+p.UltimateGamersp{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+div.gaming-cards{
+    padding: auto;
+}
+/* Footer */
+footer{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border:3px solid black;
+    margin-top: 200px;
+}
+
+/* Contact page */
+
+body.body-Contact{
+    background-image: url(https://juked.gg/wp-content/uploads/2024/01/valorant-esports.jpg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 2%;
+}
